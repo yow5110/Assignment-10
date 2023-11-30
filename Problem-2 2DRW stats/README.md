@@ -12,4 +12,4 @@ Your code should simulate 1000 particles with 10000 steps. With proper vectoriza
 
 2. What is the average x and y position of all the final positions? Use np.mean() to find out. Are they consistent with what you see in the final plot?
 
-3. Still looking at the final positions, what is the average radius r = sqrt(x**2 + y**2) measured from the origin? Use np.mean() to find out. This measures the spread of the particles. Confirm that this spread is around sqrt(Nstep) = sqrt(10000) = 100, same behavior as the 1D random walk model.
+3. Still looking at the final positions, what is the average radius r = sqrt(x^2 + y^2) measured from the origin? Use np.mean() to find out. This measures the spread of the particles. Confirm that this spread is around sqrt(Nstep) = sqrt(10000) = 100, same behavior as the 1D random walk model.

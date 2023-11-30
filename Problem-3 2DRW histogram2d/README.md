@@ -7,4 +7,4 @@ The actual code is a bit involved so everything is provided. You'll just need to
 Try to find which parameter controls the thickness of the bars and make the bars thinner like in "sample-expected.png".
 
 When in doubt, you can refer to the official manual:
-https://matplotlib.org/stable/api/_as_gen/mpl_toolkits.mplot3d.axes3d.Axes3D.html#mpl_toolkits.mplot3d.axes3d.Axes3D.bar3d
+https://matplotlib.org/stable/api/_as_gen/mpl_toolkits.mplot3d.axes3d.Axes3D.bar3d.html

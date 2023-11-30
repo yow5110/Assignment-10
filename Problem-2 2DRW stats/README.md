@@ -1,10 +1,10 @@
-# Week 11 Task 2
+# Problem 2
 
 Here we'll generalize to 2D random walk for multiple particles and perform simple statistical analysis. 
 
-1. Same as in Task 1, a template using angles to generate x and y steps is provided. Similar to what we did in class, we'll generate all the Np*Nstep random steps we need at once, so that no for loop is needed. 
+1. A template using angles to generate x and y steps is provided. Similar to what we did in class for 1D random walk, we'll generate all the Nparticles*Nsteps random steps we need all at once, so that no for loop is needed. 
 
-Next, instead of recording all the trajectories using cumulative sums, we will simply record the final position of the particles using just sum, and using the appropriate axis arguments.
+Next, instead of keeping track of all the trajectories using cumulative sums, let's perform a simple sum (with appropriate axis arguments) for each particle to obtain their final positions.
 
 A plotting section to show all the final positions of the random walkers is provided. A sample image is attached. 
 
